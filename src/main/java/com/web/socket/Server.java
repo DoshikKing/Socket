@@ -128,7 +128,7 @@ public class Server extends Thread {
                     toClient.println("Выбрана задача №1. Введите три числа:");
                     String s = fromClient.readLine();
                     String[] nums = s.split(" ");
-                    if(nums.length == 8) {
+                    if(nums.length == 3) {
                         toClient.println("Ответ: " + EX12(nums));
                     }
                     else{
